@@ -1,0 +1,41 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    padding: 2rem;
+    }
+    /* Barra de navegación */
+    header {
+    background-color: #3b2eac;
+    color: rgb(245, 245, 245);
+    padding: 1rem;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0rem;
+    padding: 0px;
+    display: flex;
+    }
+    nav li {
+    margin-right: 1rem;
+    }
+    nav a {
+    text-decoration: none;
+    color: rgb(199, 187, 187);
+    }
+    /* Estilos de secciones */
+    section {
+    padding: 2rem;
+    }
+    /* Estilos de productos */
+.producto {
+    border: 1px solid #ac9f9f;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+    
+    .precio {
+    color: #00aaff;
+    font-weight: bold;
+    }
